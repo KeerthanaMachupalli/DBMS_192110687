@@ -13,7 +13,6 @@ mysql> desc carrent;
 4 rows in set (0.01 sec)
 
 mysql> create a customer(customername char(55),customerid int(20),customeraddress char(50));
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a customer(customername char(55),customerid int(20),customeraddress char(50))' at line 1
 mysql> create table customer(customername char(55),customerid int(20),customeraddress char(50));
 Query OK, 0 rows affected (0.01 sec)
 
