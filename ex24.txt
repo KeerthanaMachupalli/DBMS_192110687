@@ -11,8 +11,6 @@ mysql> desc carrent;
 | carwedight | int(20)  | YES  |     | NULL    |       |
 +------------+----------+------+-----+---------+-------+
 4 rows in set (0.01 sec)
-
-mysql> create a customer(customername char(55),customerid int(20),customeraddress char(50));
 mysql> create table customer(customername char(55),customerid int(20),customeraddress char(50));
 Query OK, 0 rows affected (0.01 sec)
 
